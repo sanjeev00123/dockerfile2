@@ -1,8 +1,6 @@
-from ubuntu
+FROM httpd:2.4
 
-CMD ["sudo apt install apache2"]
+EXPOSE 80
 
-CMD ["httpd-forground"]
-
-CMD ["bash docker.sh"]
+CMD ["httpd-foreground"]
 
